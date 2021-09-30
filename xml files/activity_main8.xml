@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:text="Mechanical  Engineering  "
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/binoybaby"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dr. Binoy Baby"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Professor and Head"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="binoy_anjikal@yahoo.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9447875050"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/rajeshbaby"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dr. Rajesh Baby"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Associate Professor and HOD"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="rbaby55@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9447921482"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/lijopaul"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dr. Lijo Paul"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Associate Professor,Dean PG"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="lijo.paul@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9846270462"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/jilsesebastian"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dr. Jilse Sebastian"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Associate Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="jilsesebastian@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9447568494"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/tomsacharia"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Tom Zacharia"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text=" tomzacharia@rediffmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9895646290"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/bonyjohn"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Bony John"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="bonyjohn@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9447130516"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/babushankar"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Babu Sanker S"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="sankermouna@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9544397793"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/rajivkrishnan"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Rajiv Krishnan"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="krirajiv@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9605883327"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/space8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/image9"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dinugeorge"
+                    android:scaleType="center"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/name9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Dinu George"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="dinu098@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="8547201642"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space9"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image10"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/shiblemon"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Shiblemon K.V"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="shiblekv84@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9496370879 "
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image11"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/abysonscaria"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Abyson Scaria"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text=" abyson1985@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9495081076"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image12"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/girinathb"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dr. Girinath B"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="girinathbala@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 8281942767"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space12"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image13"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/jeenomathew"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Jeeno Mathew"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text=" jeenokavukattu@yahoo.co.in"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9495444970"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space13"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image14"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/anupkumar"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Anup Kumar"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="1987anupkumar@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9497333783"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space14"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image15"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/pradeeppv"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Pradeep P V"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="bossannanpv@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="8943401280"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space15"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/image16"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/anooplalb"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Anooplal B"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="anooplalb@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9846950247"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space16"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image17"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/ivinjose"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Ivin Jose"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="ivinjos@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9947087305"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space17"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image18"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/alexcholackal"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Alex Chollackal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="alexchollackal@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9947783548"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space18"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image19"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/dongeorgekurian"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Don George Kurian"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="dongeorge470@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9847914143"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space19"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image20"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/sachinjose"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Sachin Jose"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="sachin.jose@sjcetpalai.ac.in"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9446383525"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space20"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image21"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/timsontomy"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Timson Tomy"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="timsontomy23@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9496323023"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space21"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image22"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/denixmsebastian"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Denix M Sebastian"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="denixmsebastian@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="8281290634"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/space22"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/image23"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cinupelias"
+                    android:scaleType="center"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/name23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof. Cinu P Elias"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="cinupelias@yahoo.co.in"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 9495496529"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space23"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image24"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/justinjose"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Justin Jose"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="justinspkl@gmail.com"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="  9447780597"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space24"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image25"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/josetomtharappel"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Jose Tom Tharappel"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="josetom@sjcetpalai.ac.in"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9400135772"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space25"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image26"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/manumathew"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Manu Mathew"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space26"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image27"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/harikrishnanm"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Harikrishnan M."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" "
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" "
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space27"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image28"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/giphingeorge"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Giphin George"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Assistant Professor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space28"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image29"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/harikumarps"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Prof.Harikumar P.S"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Workshop Superintendent"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text="harikumar@sjcetpalai.ac.in"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9495480363"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space29"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image30"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/jipsonmathew"
+                    android:scaleType="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/name30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Jipson Mathew"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space30"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image31"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/saijujacob"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Saiju Jacob"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="919446604171"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space31"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image32"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/tomthomas"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Tom Thomas"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="9495380992"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space32"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image33"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/jameskuttyzacharias"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Jameskutty Zacharias"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Trade Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 919495188936"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space33"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image34"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/kunjumonmt"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Kunjumon M T"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Trade Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" "
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="919496592910"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space34"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image35"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/babutm"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Babu T M"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tradesman"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=" 919745364436"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space35"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image36"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/vijayanmk"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Vijayan M K"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tradesman"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space36"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image37"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:src="@drawable/somanathanasari"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. K V Somaathan Asari"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="919446119867"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/space37"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/image38"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/johnsonjoseph"
+                    android:scaleType="center"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/name38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Johnson Joseph"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="919446714176"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space38"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image39"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mathewvm"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Mathew V M"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text="919495662712 "
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space39"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="75dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/image40"
+                    android:layout_width="165dp"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/augustinevgeorge"
+                    android:scaleType="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/name40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mr. Augustine V George"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/designation40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Instructor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/mailid40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/num40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="phone"
+                android:text=""
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/space40"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
